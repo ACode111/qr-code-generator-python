@@ -9,7 +9,7 @@ A smart and user-friendly QR Code generator built with Python. It doesn't just c
 - **TLD Checker:** Ensures your link ends with a valid extension like `.com`, `.net`, etc.
 - **Unique Filenames:** Uses Unix timestamps to prevent overwriting old QR codes.
 - **User-Friendly:** Interactive command-line interface with English prompts.
--**Preview:** Opens the QR code for preview.
+- **Preview:** Opens the QR code for preview.
 
 ## 🛠️ Requirements
 To run this project, you need the `qrcode` library installed with Pillow support:
