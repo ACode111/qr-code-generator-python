@@ -72,6 +72,9 @@ else:
         a = int(time.time())
         
         img.save(f"qrcode_{a}.png")
-        print(f"QRCode saved as qrcode_{a}.png")
+
+        img.show()
+
+        print(f"QRCode saved as qrcode_{a}.png and opened for preview")
     except Exception as e:
         print(f"Error: {e}")
